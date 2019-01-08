@@ -13,6 +13,25 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+//ApplicationContact
+Route::get('/applicationContact/{id}', 'ApplicationContactController@show');
+
+//Commentaire
+
+
+//Image
+
+
+//Materiel
+
+
+//Parie
+
+
+//Publication
+
+
+//Utilisateur
+
+
+//UtilisateurParie

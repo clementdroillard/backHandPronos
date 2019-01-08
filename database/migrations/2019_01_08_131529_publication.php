@@ -19,6 +19,7 @@ class Publication extends Migration
             $table->string('sous_titre');
             $table->date('date');
             $table->longText('texte');
+            $table->boolean('visible')->default(false);
             $table->boolean('validate')->default(true);
             $table->timestamps();
         });
